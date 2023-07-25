@@ -1,0 +1,2563 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.parent {
+  position: relative;
+  background-color: #b8dde3;
+  width: 100%;
+  min-height: 829px;
+  display: flex;
+  align-items: center;
+}
+.yellow-hero h3 {
+  font-size: 45px;
+  font-weight: bold;
+  padding-top: 20%;
+}
+.own-img img {
+  position: relative;
+  width: 64%;
+}
+.purple {
+  padding-top: 29%;
+}
+.purple img {
+  width: 85%;
+}
+.yellow-sahpe img {
+  position: absolute;
+  width: 24%;
+  height: 10px;
+  bottom: 318px;
+  left: 112px;
+  animation: section-animation 3s infinite;
+}
+@keyframes section-animation {
+  0% {
+    width: 0;
+  }
+  15% {
+    width: 24%;
+  }
+  85% {
+    opacity: 1;
+  }
+  90% {
+    width: 24%;
+    opacity: 0;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+.yellow-hero h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.yellow-hero p {
+  font-size: 16px;
+  color: #53545b;
+  margin-bottom: 37px;
+}
+.hero-search .hero-input input {
+  width: 65%;
+  height: 54px;
+  line-height: 54px;
+  padding: 0 24px;
+  font-size: 15px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+.hero-input button {
+  position: absolute;
+  top: 79%;
+  right: 40%;
+  transform: translateY(-50%);
+  font-size: 19px;
+  background: transparent;
+  border: none;
+}
+.fa-magnifying-glass {
+  font-weight: 900;
+}
+.hero-input {
+  padding-bottom: 15px;
+}
+.own-img {
+  position: absolute;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+.bg-shape img.hero1 {
+  position: absolute;
+  width: 5%;
+  top: 20%;
+  left: 10%;
+  animation: hero1 6s linear 0s infinite alternate;
+}
+@keyframes hero1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.bg-shape img {
+  bottom: 29%;
+  left: 50px;
+}
+.circleimage img {
+  position: absolute;
+  width: 5%;
+  top: 48%;
+  left: 95%;
+}
+ul,
+li,
+a {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+}
+.header.sticky {
+  background-color: white;
+  z-index: 3;
+}
+.navbar .menu-list {
+  display: inline-flex;
+  margin-bottom: 0;
+}
+.navbar .logo a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.menu-list li a {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 15px;
+  transition: all 0.5s;
+}
+
+.icon {
+  color: black;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+.icon.close-btn {
+  position: absolute;
+  top: 14px;
+  right: 6%;
+  z-index: 5;
+}
+.logo a span {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 14px;
+  display: inline-block;
+  color: black;
+}
+.logo img {
+  width: 48%;
+}
+.logo a span:hover {
+  color: blue;
+  transition: 0.8s;
+}
+a span::after {
+  position: absolute;
+  content: "";
+  left: 137px;
+  top: 30%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 40px;
+  background: #c9ccd4;
+}
+.fa-chevron-down {
+  font-size: 15px;
+}
+.sub-list {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  z-index: 99;
+  width: 200px;
+  background-color: white;
+  color: black;
+  padding: 0 5px;
+  line-height: 40px;
+}
+.sub-list li a {
+  color: black;
+}
+.sub-list li {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #ffc500;
+}
+.sub-list li a:hover {
+  background-color: #2b4eff;
+  color: white;
+  transition: 0.8s;
+}
+.sub-menu:hover .sub-list {
+  visibility: visible;
+}
+#menu-bar,
+nav label {
+  display: none;
+}
+
+.parent1 {
+  padding-top: 10%;
+}
+.section-title {
+  font-size: 40px;
+  color: #0e1133;
+  text-transform: capitalize;
+  margin-bottom: 3px;
+}
+.yellow-bg img {
+  position: absolute;
+  width: 15%;
+  height: 12px;
+  bottom: 143px;
+  left: 16%;
+  z-index: -1;
+  animation: section-animation1 3s infinite;
+}
+@keyframes section-animation1 {
+  0% {
+    width: 0;
+  }
+  15% {
+    width: 15%;
+  }
+  85% {
+    opacity: 1;
+  }
+  90% {
+    width: 15%;
+    opacity: 0;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+.section-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e1133;
+  text-transform: capitalize;
+  margin-bottom: 3px;
+}
+.section-title p {
+  font-size: 16px;
+  color: #53545b;
+}
+.header-svg {
+  background-color: #2d69f0;
+  text-align: left;
+  padding: 20px 29px;
+  color: white;
+}
+.fa-readme {
+  font-size: 80px;
+  padding-bottom: 15%;
+}
+.read-me a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+.read-me a:hover {
+  color: white;
+}
+.svg-content p {
+  font-weight: bold;
+  padding-top: 8%;
+}
+.header-svg1 {
+  background-color: #dd246e;
+  text-align: left;
+  padding: 20px 29px;
+  color: white;
+}
+.fa-teamspeak {
+  font-size: 80px;
+  padding-bottom: 15%;
+}
+.header-svg2 {
+  background-color: #8007e6;
+  text-align: left;
+  padding: 20px 29px;
+  color: white;
+}
+.fa-rocketchat {
+  font-size: 80px;
+  padding-bottom: 15%;
+}
+.header-svg3 {
+  background-color: #0cae74;
+  text-align: left;
+  padding: 20px 29px;
+  color: white;
+}
+.fa-book {
+  font-size: 80px;
+  padding-bottom: 15%;
+}
+.content {
+  padding-bottom: 5%;
+}
+
+.parent2 {
+  margin-top: 10%;
+}
+.achive-img img {
+  width: 370px;
+  display: block;
+  object-fit: cover;
+  position: relative;
+  margin-left: 10%;
+  border-radius: 10px;
+}
+.achive-img1 img {
+  position: absolute;
+  max-width: 240px;
+  top: 235px;
+  left: 0;
+  border-radius: 10px;
+}
+.achive-content {
+  margin-left: 50%;
+  margin-top: 4%;
+}
+.achive-content a {
+  text-decoration: none;
+}
+.achive-content a img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0px 10px 20px 0px rgba(0, 5, 52, 0.1);
+  margin-left: -12px;
+  margin-bottom: 2%;
+}
+.achive-content p {
+  margin-left: -13%;
+  color: #6d6e75;
+}
+.achive-content span {
+  font-weight: bold;
+  color: #0e1133;
+}
+.achive {
+  position: relative;
+}
+.yellow-bg-big img {
+  position: absolute;
+  width: 16%;
+  height: 11px;
+  bottom: 0px;
+  left: 0;
+  z-index: -1;
+  animation: section-animation-2 3s infinite;
+}
+@keyframes section-animation-2 {
+  0% {
+    width: 0;
+  }
+  15% {
+    width: 16%;
+  }
+  85% {
+    opacity: 1;
+  }
+  90% {
+    width: 16%;
+    opacity: 0;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+.achive {
+  font-size: 40px;
+  color: #0e1133;
+  text-transform: capitalize;
+  margin-bottom: 3px;
+}
+.second-achive p {
+  font-size: 16px;
+  color: #53545b;
+}
+.achive-ul ul {
+  padding-left: 0;
+}
+.achive-ul ul li {
+  list-style: none;
+  font-size: 19px;
+}
+.fa-check {
+  color: #30a820;
+}
+.achive-btn button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 30px;
+  background-color: transparent;
+  border: 2px solid #d7d9e3;
+  color: #0e1133;
+}
+.achive-btn button:hover {
+  color: white;
+  background-color: #2b4eff;
+  border: none;
+  transition: 0.8s;
+}
+.second-achive {
+  padding-top: 10%;
+}
+
+.find {
+  text-align: left;
+}
+.section-find {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e1133;
+  text-transform: capitalize;
+  margin-bottom: 3px;
+}
+.yellow-shape-find img {
+  position: absolute;
+  width: 20%;
+  height: 14px;
+  bottom: 39px;
+  left: 140px;
+  animation: section-animation-3 3s infinite;
+}
+@keyframes section-animation-3 {
+  0% {
+    width: 0;
+  }
+  15% {
+    width: 20%;
+  }
+  85% {
+    opacity: 1;
+  }
+  90% {
+    width: 20%;
+    opacity: 0;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+.find-ul ul {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.find-ul ul li {
+  list-style: none;
+  background-color: #eee;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.find-ul ul li:hover {
+  background-color: #2b4eff;
+  color: white;
+  transition: 0.8s;
+}
+.find-ul {
+  margin-top: 6%;
+}
+.find-see {
+  position: absolute;
+  top: 11px;
+  left: 84px;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 7px;
+  background: #2b4eff;
+  color: #ffffff;
+  border-radius: 4px;
+  font-size: 12px;
+  text-transform: capitalize;
+  box-shadow: 0px 8px 20px 0px rgba(1, 23, 133, 0.3);
+}
+.find-ul .find-see::after {
+  position: absolute;
+  content: "";
+  bottom: -5px;
+  left: 10px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid #2b4eff;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+.tab-change {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tab-change .tab-content {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 5px;
+}
+.find-img {
+  overflow: hidden;
+}
+.find-img img {
+  width: 100%;
+}
+.find-img img {
+  transition: 0.8s;
+}
+.find-img img:hover {
+  transform: scale(1.2);
+}
+.find-img-ab a {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  top: 26px;
+  left: 29px;
+  background-color: #b128ff;
+  padding: 0 10px;
+}
+.find-img-ab a:hover {
+  color: white;
+}
+.star {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: #6d6e75;
+}
+.parent3 {
+  background-color: #f3f4f8;
+  margin-top: 5%;
+  padding: 5% 0;
+}
+.find-content {
+  background-color: white;
+}
+.find-a {
+  text-align: left;
+  padding: 0 20px;
+}
+.find-a a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  font-weight: 600;
+}
+.find-teacher {
+  display: flex;
+  padding: 0 20px;
+  margin-top: 5%;
+}
+.find-teacher img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.find-teacher p {
+  margin-top: 6px;
+}
+.free {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.free span {
+  font-size: 20px;
+  color: #b128ff;
+  font-weight: 600;
+}
+.free p:hover {
+  color: #2b4eff;
+  transition: 0.8s;
+}
+.own {
+  margin: 20px 0;
+}
+
+.what {
+  padding: 32px 0;
+}
+.section-what {
+  font-size: 40px;
+  color: #0e1133;
+  text-transform: capitalize;
+  margin-bottom: 3px;
+}
+.section-what img {
+  position: absolute;
+  width: 11%;
+  height: 13px;
+  bottom: 123px;
+  left: 50%;
+  z-index: -1;
+  animation: section-animation-4 3s infinite;
+}
+@keyframes section-animation-4 {
+  0% {
+    width: 0;
+  }
+  15% {
+    width: 11%;
+  }
+  85% {
+    opacity: 1;
+  }
+  90% {
+    width: 11%;
+    opacity: 0;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+.parent4 {
+  text-align: center;
+}
+.what p {
+  font-size: 16px;
+  color: #53545b;
+}
+.what-img img {
+  width: 69%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.what-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.what-content h3 {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 33px;
+  padding-top: 9%;
+}
+.what-btn button {
+  font-weight: 600;
+  padding: 4px 9px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+.what-btn button:hover {
+  background-color: white;
+  color: #0e1133;
+  transition: 0.8s;
+}
+
+.parent5 {
+  padding: 10% 0;
+}
+.yellow-why img {
+  position: absolute;
+  width: 20%;
+  height: 11px;
+  top: 52px;
+  left: 143px;
+  z-index: -1;
+  animation: section-animation-5 3s infinite;
+}
+@keyframes section-animation-5 {
+  0% {
+    width: 0;
+  }
+  15% {
+    width: 20%;
+  }
+  85% {
+    opacity: 1;
+  }
+  90% {
+    width: 20%;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+.why .me {
+  color: #2d69f0;
+}
+.why h2 {
+  font-weight: bold;
+}
+.why-btn {
+  display: flex;
+  align-items: center;
+}
+.why-btn button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: #2d69f0;
+  border: none;
+  margin-right: 30px;
+}
+.why-btn button:hover {
+  box-shadow: 1px 1px 10px 5px #00fcb8;
+  transition: 0.8s;
+}
+.why-btn p {
+  padding-top: 30px;
+  font-family: bold;
+}
+.why-btn p:hover {
+  color: #2d69f0;
+  transition: 0.8s;
+}
+.why-imgs {
+  position: relative;
+  z-index: 1;
+  margin-left: -35px;
+}
+.why-imgs img {
+  width: 87%;
+}
+.why-imgs .green {
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: 62px;
+  width: 87%;
+  height: 376px;
+}
+.why-imgs .pink {
+  position: absolute;
+  z-index: -2;
+  bottom: -6%;
+  left: 15%;
+  width: 66%;
+  height: 376px;
+}
+.why-imgs .dot {
+  position: absolute;
+  right: 19%;
+  bottom: 6%;
+  width: 10%;
+  height: 55px;
+}
+.why-imgs .line {
+  position: absolute;
+  right: 11%;
+  top: 8%;
+  width: 8%;
+  height: 40px;
+}
+
+.yellow-we img {
+  position: absolute;
+  width: 10%;
+  height: 12px;
+  top: 36px;
+  left: 50%;
+  z-index: -1;
+  animation: section-animation-6 3s infinite;
+}
+@keyframes section-animation-6 {
+  0% {
+    width: 0;
+  }
+  15% {
+    width: 10%;
+  }
+  85% {
+    opacity: 1;
+  }
+  90% {
+    width: 10%;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+.we h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.users {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding-top: 5%;
+}
+.enrolled {
+  margin: 0 60px;
+}
+.enrolled span {
+  font-size: 35px;
+}
+.fa-users {
+  color: rgb(252, 77, 147);
+}
+.fa-book-open-reader {
+  color: rgb(255, 143, 33);
+}
+.fa-user-graduate {
+  color: rgb(148, 226, 238);
+}
+.fa-earth-americas {
+  color: rgb(150, 168, 253);
+}
+.enrolled p {
+  font-size: 25px;
+  font-weight: bold;
+}
+.enrolled h5 {
+  color: #6d6e75;
+}
+.parent6 {
+  text-align: center;
+}
+
+.back-image img {
+  position: absolute;
+}
+.item {
+  padding-top: 10%;
+  text-align: center;
+}
+.item img {
+  width: 6%;
+  height: 58px;
+  border-radius: 50%;
+  margin: auto;
+}
+.parent7 .owl-carousel .owl-item img {
+  width: auto;
+}
+.item p {
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+}
+.item h4 {
+  color: white;
+}
+.item h6 {
+  color: white;
+}
+.parent7 {
+  padding-top: 5%;
+}
+
+.parent8 {
+  position: relative;
+  padding-top: 11%;
+  text-align: center;
+}
+.yellow-share img {
+  position: absolute;
+  width: 11%;
+  height: 13px;
+  top: 35%;
+  left: 41%;
+  z-index: -1;
+  animation: section-animation-7 3s infinite;
+}
+@keyframes section-animation-7 {
+  0% {
+    width: 0;
+  }
+  15% {
+    width: 10%;
+  }
+  85% {
+    opacity: 1;
+  }
+  90% {
+    width: 10%;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+.share {
+  padding-bottom: 5%;
+}
+.share h2 {
+  font-weight: bold;
+}
+.art p {
+  background-color: rgba(15, 160, 221, 0.1);
+  color: #0fa0dd;
+  width: 45%;
+  padding: 5px 10px;
+}
+.art p:hover {
+  color: white;
+  background-color: #0fa0dd;
+  transition: 0.8s;
+}
+.jim img {
+  width: 35%;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.global-content {
+  padding: 10px 26px;
+  text-align: left;
+  background: antiquewhite;
+}
+.global-content a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+.global-content a:hover {
+  transition: 0.8s;
+}
+.april {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.global-image {
+  overflow: hidden;
+}
+.global-image img {
+  transition: all 0.8s;
+}
+.global-image img:hover {
+  transform: scale(1.2);
+}
+.section-share {
+  box-shadow: 0px 30px 40px 0px rgba(1, 11, 60, 0.3);
+}
+
+.start-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 55px 30px;
+  background-color: #2b4eff;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.parent9 {
+  padding-top: 10%;
+}
+.start2 button {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+}
+.start2 button:hover {
+  color: white;
+  background-color: #0fa0dd;
+  transition: 0.8s;
+}
+.start {
+  text-align: left;
+}
+.start h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.parent10 {
+  position: relative;
+  background-color: #edeef3;
+  margin-top: 100px;
+  padding-top: 176px;
+}
+.logo2 img {
+  width: 55%;
+  height: 50px;
+  padding-bottom: 5%;
+  padding-top: 10px;
+}
+.foter-content p {
+  padding-bottom: 5%;
+  font-size: 14px;
+}
+.social a {
+  font-size: 30px;
+  margin: 0 3px;
+  border: 1px solid;
+  padding: 0 7px;
+  background-color: #b128ff;
+  color: #b128ff;
+}
+.social a:hover {
+  transition: 0.8s;
+}
+.about a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+}
+.about a:hover {
+  transition: 0.8s;
+}
+.company p {
+  font-weight: bold;
+  font-size: 20px;
+}
+.fa-arrow-right {
+  padding: 13px 20px;
+  background-color: #2b4eff;
+  font-weight: bold;
+  color: white;
+}
+.lab input {
+  padding: 10px 10px;
+  text-align: center;
+  border: none;
+}
+.company-content h4 {
+  font-size: 14px;
+  padding-top: 5%;
+}
+.copyright {
+  text-align: center;
+}
+.copyright a {
+  text-decoration: none;
+}
+.foter {
+  padding-bottom: 20%;
+}
+@media (max-width: 1224px) {
+  .yellow-sahpe img {
+    bottom: 324px;
+  }
+  .hero-input button {
+    top: 79%;
+  }
+  .own-img {
+    padding-top: 11%;
+  }
+  .yellow-bg img {
+    bottom: 146px;
+  }
+  .svg-content h3 {
+    font-size: 22px;
+  }
+  .art p {
+    width: 40%;
+  }
+  .lab input {
+    padding: 10px 13px;
+  }
+  .social a {
+    margin: 0 6px;
+  }
+  .what-content {
+    height: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .yellow-sahpe img {
+    bottom: 300px;
+    left: 95px;
+  }
+  @keyframes section-animation {
+    15% {
+      width: 27%;
+    }
+    90% {
+      width: 27%;
+    }
+  }
+  .yellow-bg img {
+    bottom: 136px;
+    left: 39%;
+  }
+  @keyframes section-animation1 {
+    15% {
+      width: 24%;
+    }
+    90% {
+      width: 24%;
+    }
+  }
+  .read-me a {
+    font-size: 17px;
+  }
+  .find-ul ul li {
+    font-size: 15px;
+  }
+  .art p {
+    width: 52%;
+  }
+  .fa-arrow-right {
+    padding: 13px 10px;
+  }
+  .lab input {
+    padding: 10px 0;
+  }
+  .yellow-hero h3 {
+    font-size: 38px;
+  }
+  .own-img {
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .header {
+    width: 99%;
+  }
+  .achive-content {
+    margin-left: 58%;
+  }
+  .yellow-shape-find img {
+    bottom: 59px;
+  }
+  @keyframes section-animation-3 {
+    15% {
+      width: 28%;
+    }
+    90% {
+      width: 28%;
+    }
+  }
+  .find p {
+    font-size: 15px;
+  }
+  .find-a a {
+    font-size: 16px;
+  }
+  .global-content a {
+    font-size: 14px;
+  }
+  .company-content h4 {
+    font-size: 11px;
+  }
+  .foter-content p {
+    padding-bottom: 5%;
+    font-size: 12px;
+  }
+}
+@media (max-width: 992px) {
+  .navbar .menu-list {
+    position: fixed;
+    background: white;
+    top: 8%;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    max-width: 400px;
+    display: block;
+    padding: 50px 0;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  .menu-list li a:hover {
+    color: rgb(209, 15, 147);
+  }
+  .navbar .menu-list.active {
+    left: 0;
+  }
+  .navbar .menu-list li {
+    margin-top: 45px;
+  }
+  .navbar .menu-list li a {
+    font-size: 22px;
+  }
+  .icon,
+  .icon.show {
+    display: block;
+  }
+  .icon.hide {
+    display: none;
+  }
+  .sub-list {
+    top: 7%;
+    left: 38%;
+    width: 58%;
+    overflow: auto;
+    height: 200px;
+  }
+  .sub-menu {
+    text-align: left;
+  }
+  .parent1 .col-lg-12:nth-child(2) .row > div {
+    margin-bottom: 10px;
+  }
+  .parent {
+    text-align: center;
+  }
+  .yellow-sahpe img {
+    bottom: 300px;
+    left: 234px;
+  }
+  .hero-input button {
+    top: 81%;
+    right: 24%;
+  }
+  .own-img {
+    bottom: 0;
+  }
+  .own-img img {
+    width: 40%;
+  }
+  .purple img {
+    width: 80%;
+  }
+  .header {
+    width: 99%;
+  }
+  .back-image img {
+    width: 99%;
+  }
+  hr:not([size]) {
+    height: 1px;
+    width: 99%;
+  }
+  .why,
+  .foter,
+  .foter-content,
+  .about,
+  .company p,
+  .lab,
+  .company-content h4 {
+    text-align: center;
+  }
+  .company-content h4 {
+    font-size: 25px;
+  }
+  .why-btn {
+    justify-content: center;
+  }
+  .why-imgs {
+    margin-left: 0;
+  }
+
+  .company p {
+    font-size: 42px;
+  }
+  .foter {
+    padding-bottom: 6%;
+  }
+  .about a {
+    font-size: 35px;
+  }
+  .logo2 img {
+    height: 107px;
+  }
+  .foter-content p {
+    font-size: 30px;
+  }
+  .yellow-why img {
+    left: 46%;
+    top: 26%;
+  }
+  .parent1 {
+    text-align: center;
+  }
+  .yellow-bg img {
+    bottom: 121px;
+  }
+  .parent2 {
+    text-align: center;
+  }
+  .achive-content {
+    margin-left: 55%;
+  }
+  .achive {
+    font-size: 50px;
+  }
+  .find p {
+    font-size: 22px;
+  }
+  .achive-ul ul li {
+    font-size: 27px;
+  }
+  .achive-btn button {
+    font-size: 27px;
+  }
+  .achive-img img {
+    width: 100%;
+  }
+  .achive-img1 img {
+    max-width: 43%;
+    top: 56%;
+  }
+  .yellow-bg-big img {
+    left: 21%;
+  }
+  .find {
+    text-align: center;
+  }
+  .yellow-shape-find img {
+    bottom: 50px;
+    left: 34%;
+  }
+  .star span {
+    font-size: 30px;
+  }
+  .star p {
+    font-size: 30px;
+  }
+  .find-a a {
+    font-size: 28px;
+  }
+  .find-teacher img {
+    width: 60px;
+    height: 60px;
+  }
+  .find-teacher p {
+    font-size: 31px;
+  }
+  .free span {
+    font-size: 35px;
+  }
+  .free p {
+    font-size: 27px;
+  }
+  .parent4 {
+    text-align: center;
+  }
+  .why .me {
+    font-size: 33px;
+  }
+  .why h2 {
+    font-size: 45px;
+  }
+  .why p {
+    font-size: 21px;
+  }
+  .why-btn button {
+    font-size: 25px;
+  }
+  .why-imgs img {
+    width: 100%;
+  }
+  .parent6 {
+    text-align: center;
+  }
+  .item {
+    text-align: center;
+  }
+  .parent8 {
+    text-align: center;
+  }
+  .yellow-share img {
+    top: 41%;
+    left: 35%;
+  }
+  .start-con {
+    display: block;
+    text-align: center;
+  }
+  .start-con {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .what-img {
+    margin-bottom: 5%;
+  }
+  .start {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 800px) {
+  .parent {
+    background-color: white;
+    text-align: center;
+  }
+  .hero-search .hero-input input {
+    width: 60%;
+    border: 1px solid;
+  }
+  .hero-input button {
+    top: 79%;
+    right: 28%;
+  }
+  .yellow-sahpe img {
+    left: 180px;
+    bottom: 312px;
+  }
+  @keyframes section-animation {
+    15% {
+      width: 21%;
+    }
+    90% {
+      width: 21%;
+    }
+  }
+  .yellow-bg img {
+    bottom: 125px;
+    left: 39%;
+  }
+  .parent2 {
+    text-align: center;
+  }
+  .achive-img img {
+    width: 82%;
+  }
+  .achive-img1 img {
+    top: 196px;
+    max-width: 299px;
+  }
+  .achive {
+    font-size: 52px;
+  }
+  .yellow-bg-big img {
+    left: 9%;
+  }
+  @keyframes section-animation-2 {
+    15% {
+      width: 20%;
+    }
+    90% {
+      width: 20%;
+    }
+  }
+  .second-achive p {
+    font-size: 18px;
+  }
+  .achive-ul ul li {
+    font-size: 25px;
+  }
+  .achive-btn button {
+    font-size: 25px;
+  }
+  .find {
+    text-align: center;
+  }
+  .yellow-shape-find img {
+    bottom: 39%;
+    left: 33%;
+  }
+  .section-find {
+    font-size: 49px;
+  }
+  .yellow-hero p {
+    font-size: 20px;
+  }
+  .find-ul ul li {
+    font-size: 19px;
+  }
+  .find-a a {
+    font-size: 27px;
+  }
+  .what p {
+    font-size: 13px;
+  }
+  .section-what img {
+    bottom: 108px;
+  }
+  .star span {
+    font-size: 25px;
+  }
+  .star p {
+    font-size: 25px;
+  }
+  .find-teacher img {
+    width: 70px;
+    height: 65px;
+  }
+  .find-teacher p {
+    font-size: 30px;
+    margin-top: 11px;
+  }
+  .free span {
+    font-size: 30px;
+  }
+  .free p {
+    font-size: 23px;
+  }
+  .section-what {
+    font-size: 50px;
+  }
+  @keyframes section-animation-4 {
+    15% {
+      width: 23%;
+    }
+    90% {
+      width: 23%;
+    }
+  }
+  .what-img img {
+    width: 100%;
+  }
+  .what-content h3 {
+    padding-top: 13%;
+  }
+  .parent5 {
+    text-align: center;
+  }
+  .why span {
+    font-size: 28px;
+  }
+  .why h2 {
+    font-size: 47px;
+  }
+  .why .yellow-why {
+    font-size: 47px;
+  }
+  .why p {
+    font-size: 18px;
+  }
+  .yellow-why img {
+    top: 25%;
+    left: 44%;
+  }
+  @keyframes section-animation-5 {
+    15% {
+      width: 30%;
+    }
+    90% {
+      width: 30%;
+    }
+  }
+  .why-btn {
+    justify-content: center;
+  }
+  .why-btn button {
+    font-size: 25px;
+  }
+  .why-btn p {
+    font-size: 20px;
+  }
+  .why-imgs img {
+    width: 90%;
+  }
+  .we h2 {
+    font-size: 60px;
+  }
+  .item p {
+    font-size: 20px;
+  }
+  .yellow-we img {
+    top: 45%;
+    left: 53%;
+  }
+  @keyframes section-animation-6 {
+    15% {
+      width: 25%;
+    }
+    90% {
+      width: 25%;
+    }
+  }
+  .we p {
+    font-size: 20px;
+  }
+  .enrolled {
+    margin: 0 14px;
+  }
+  .share h2 {
+    font-size: 44px;
+  }
+  .yellow-share img {
+    top: 44%;
+    left: 25%;
+  }
+  @keyframes section-animation-7 {
+    15% {
+      width: 30%;
+    }
+    90% {
+      width: 30%;
+    }
+  }
+  .share p {
+    font-size: 22px;
+  }
+  .start h3 {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .parent10 {
+    text-align: center;
+  }
+  .foter-content p {
+    font-size: 29px;
+  }
+
+  .social a {
+    margin: 0 20px;
+    font-size: 40px;
+  }
+
+  .lab input {
+    width: 94%;
+  }
+  .company-content h4 {
+    font-size: 22px;
+  }
+  .copyright p {
+    font-size: 20px;
+  }
+  .what-content h3 {
+    padding-top: 17%;
+  }
+  .header-svg {
+    margin-bottom: 15px;
+  }
+  .what-section {
+    margin-bottom: 35px;
+  }
+  .hero2 {
+    display: none;
+  }
+  .why-imgs .green {
+    right: 44px;
+  }
+  .bg-shape {
+    display: none;
+  }
+  .achive-img1 img {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  .yellow-hero h3 {
+    font-size: 40px;
+  }
+  .yellow-sahpe img {
+    left: 174px;
+    bottom: 306px;
+  }
+  .hero-search .hero-input input {
+    width: 60%;
+  }
+  .hero-input button {
+    top: 79%;
+    right: 29%;
+  }
+  .own-img img {
+    width: 70%;
+  }
+  /* .purple img{
+        width: 100%;
+    } */
+  .purple {
+    padding-top: 53%;
+  }
+  .parent1 {
+    padding-top: 12%;
+  }
+  .yellow-bg img {
+    bottom: 117px;
+    left: 31%;
+  }
+  @keyframes section-animation1 {
+    15% {
+      width: 42%;
+    }
+    90% {
+      width: 42%;
+    }
+  }
+  .achive-img img {
+    width: 100%;
+  }
+  .achive-img1 img {
+    top: 284px;
+    max-width: 328px;
+  }
+  .achive-content {
+    margin-left: 69%;
+    margin-top: 4%;
+  }
+  .achive-content p {
+    font-size: 14px;
+  }
+  .yellow-bg-big img {
+    left: 8%;
+    bottom: 3px;
+  }
+  @keyframes section-animation-2 {
+    15% {
+      width: 26%;
+    }
+    90% {
+      width: 26%;
+    }
+  }
+  .yellow-hero p {
+    font-size: 18px;
+  }
+  .section-find {
+    font-size: 49px;
+  }
+  .yellow-shape-find img {
+    bottom: 34%;
+    left: 32%;
+  }
+  @keyframes section-animation-3 {
+    15% {
+      width: 31%;
+    }
+    90% {
+      width: 31%;
+    }
+  }
+  .yellow-hero p {
+    font-size: 17px;
+  }
+  .find-ul ul li {
+    font-size: 18px;
+  }
+  .what p {
+    font-size: 13px;
+    color: #53545b;
+  }
+  .section-what img {
+    bottom: 117px;
+  }
+  @keyframes section-animation-4 {
+    15% {
+      width: 31%;
+    }
+    90% {
+      width: 31%;
+    }
+  }
+  .what-content {
+    width: 95%;
+    height: 237px;
+  }
+  .what-section {
+    padding: 10px 0;
+  }
+  .what-content h3 {
+    padding-top: 8%;
+  }
+  .why h2 {
+    font-size: 47px;
+  }
+  .why p {
+    font-size: 18px;
+  }
+  .share h2 {
+    font-size: 44px;
+  }
+  .yellow-share img {
+    top: 44%;
+    left: 17%;
+  }
+  @keyframes section-animation-7 {
+    15% {
+      width: 40%;
+    }
+    90% {
+      width: 40%;
+    }
+  }
+  .start-con {
+    flex-direction: column;
+  }
+  .start h3 {
+    padding-bottom: 6%;
+  }
+  .lab input {
+    width: 93%;
+  }
+  .copyright p {
+    font-size: 20px;
+  }
+  .header-svg {
+    margin-bottom: 15px;
+  }
+  .header-svg1 {
+    margin-bottom: 15px;
+  }
+  .header-svg2 {
+    margin-bottom: 15px;
+  }
+  .header-svg3 {
+    margin-bottom: 15px;
+  }
+  .second-achive p {
+    font-size: 18px;
+  }
+  .why-imgs img {
+    width: 100%;
+  }
+  .why-imgs .green {
+    display: none;
+  }
+  .why-imgs .pink {
+    display: none;
+  }
+  .why-imgs .dot {
+    display: none;
+  }
+  .why-imgs .line {
+    display: none;
+  }
+  .foter-content p {
+    font-size: 29px;
+  }
+  .logo2 {
+    padding-top: 10%;
+  }
+}
+@media (max-width: 600px) {
+  .hero-input button {
+    top: 79%;
+    right: 29%;
+  }
+  .achive-img img {
+    margin-left: 0;
+  }
+  .achive-content p {
+    font-size: 15px;
+  }
+  .yellow-we img {
+    top: 36%;
+    left: 53%;
+  }
+  @keyframes section-animation-6 {
+    15% {
+      width: 33%;
+    }
+    90% {
+      width: 33%;
+    }
+  }
+  .item {
+    padding-top: 0%;
+  }
+  .item p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 575px) {
+  .achive-img1 img,
+  .achive-content {
+    display: none;
+  }
+  .why-imgs .green {
+    right: 26px;
+  }
+  .start-con {
+    padding: 55px 119px;
+    width: auto;
+  }
+  .header {
+    width: 100%;
+  }
+  hr:not([size]) {
+    height: 1px;
+    width: 95%;
+  }
+  .what-content {
+    width: 96%;
+    height: 232px;
+    top: 10px;
+  }
+  .own-img img {
+    width: 63%;
+  }
+  .purple img {
+    width: 80%;
+  }
+  .start h3 {
+    font-size: 33px;
+  }
+}
+@media (max-width: 480px) {
+  .yellow-hero h3 {
+    font-size: 33px;
+  }
+  .yellow-sahpe img {
+    left: 158px;
+    bottom: 283px;
+  }
+  .hero-search .hero-input input {
+    width: 69%;
+  }
+  .hero-input button {
+    top: 78%;
+    right: 23%;
+  }
+  .second-achive p {
+    font-size: 16px;
+  }
+  .yellow-hero p {
+    font-size: 16px;
+  }
+  .section-title {
+    font-size: 34px;
+  }
+  .content p {
+    font-size: 14px;
+  }
+  .yellow-bg img {
+    bottom: 103px;
+    left: 31%;
+  }
+  .section-find {
+    font-size: 40px;
+  }
+  .find p {
+    font-size: 14px;
+  }
+  .find-ul ul li {
+    font-size: 15px;
+  }
+  .find-a a {
+    font-size: 24px;
+  }
+  .what p {
+    font-size: 11px;
+    color: #53545b;
+  }
+  .section-what img {
+    bottom: 99px;
+  }
+  .why h2 {
+    font-size: 35px;
+  }
+  .why .yellow-why {
+    font-size: 35px;
+  }
+  .item p {
+    font-size: 10px;
+  }
+  .share h2 {
+    font-size: 38px;
+  }
+  .yellow-share img {
+    top: 40%;
+    left: 17%;
+  }
+  .start h3 {
+    font-size: 24px;
+  }
+  .start2 button {
+    font-size: 14px;
+    padding: 10px 12px;
+    margin-bottom: 5%;
+  }
+  .foter-content p {
+    font-size: 22px;
+  }
+  .lab input {
+    width: 92%;
+  }
+  .copyright p {
+    font-size: 17px;
+  }
+  a span::after {
+    top: 44%;
+  }
+  .navbar .menu-list {
+    max-width: 300px;
+  }
+  .navbar .menu-list li a {
+    font-size: 16px;
+  }
+  .navbar .menu-list li {
+    margin-top: 18px;
+  }
+  .yellow-hero h3 {
+    font-size: 30px;
+  }
+  .achive {
+    font-size: 38px;
+  }
+  .yellow-bg-big img {
+    left: 15%;
+    bottom: 3px;
+  }
+  .yellow-hero p {
+    font-size: 13px;
+  }
+  .achive-ul ul li {
+    font-size: 18px;
+  }
+  .achive-btn button {
+    font-size: 17px;
+  }
+  .section-find {
+    font-size: 34px;
+  }
+  .yellow-shape-find img {
+    bottom: 29%;
+    left: 32%;
+  }
+  .why p {
+    font-size: 16px;
+  }
+  .find-teacher img {
+    width: 50px;
+    height: 50px;
+  }
+  .find-teacher p {
+    font-size: 21px;
+    margin-top: 11px;
+  }
+  .free span {
+    font-size: 25px;
+  }
+  .free p {
+    font-size: 18px;
+  }
+  .star span {
+    font-size: 20px;
+  }
+  .star p {
+    font-size: 20px;
+  }
+  .find-a a {
+    font-size: 20px;
+  }
+  .section-what {
+    font-size: 40px;
+  }
+  .company p {
+    font-size: 37px;
+  }
+  .about a {
+    font-size: 28px;
+  }
+}
+@media (max-width: 420px) {
+  .yellow-sahpe img {
+    left: 115px;
+    bottom: 277px;
+  }
+  .yellow-hero h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  .hero-search .hero-input input {
+    font-size: 13px;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  .yellow-bg img {
+    bottom: 91px;
+    left: 31%;
+  }
+  .content p {
+    font-size: 13px;
+  }
+  .yellow-bg-big img {
+    left: 10%;
+    bottom: 3px;
+  }
+  .find-ul ul li {
+    font-size: 12px;
+  }
+  .find-see {
+    top: 0;
+    left: 72px;
+  }
+  .section-what img {
+    bottom: 98px;
+  }
+  .what p {
+    font-size: 10px;
+    color: #53545b;
+  }
+  .why-btn button {
+    font-size: 20px;
+  }
+  .we h2 {
+    font-size: 47px;
+  }
+  .we p {
+    font-size: 12px;
+  }
+  .item img {
+    height: 30px;
+  }
+  .share h2 {
+    font-size: 30px;
+  }
+  .share p {
+    font-size: 12px;
+  }
+  .yellow-share img {
+    top: 47%;
+    left: 17%;
+  }
+  .start h3 {
+    font-size: 16px;
+  }
+  .start2 button {
+    font-size: 9px;
+    padding: 10px 12px;
+  }
+  .lab input {
+    width: 91%;
+  }
+  .company-content h4 {
+    font-size: 19px;
+  }
+  .copyright p {
+    font-size: 15px;
+  }
+
+  .navbar .menu-list li a {
+    font-size: 24px;
+  }
+  .navbar .menu-list li a {
+    font-size: 22px;
+  }
+  .yellow-hero h3 {
+    font-size: 23px;
+  }
+  .yellow-hero h4 {
+    font-size: 17px;
+  }
+  .hero-search .hero-input input {
+    font-size: 11px;
+  }
+  .hero-search .hero-input input {
+    font-size: 11px;
+  }
+  .yellow-hero p {
+    font-size: 12px;
+  }
+  .hero-input button {
+    top: 76%;
+  }
+  .second-achive p {
+    font-size: 13px;
+  }
+  .find p {
+    font-size: 12px;
+  }
+  .why p {
+    font-size: 14px;
+  }
+  .yellow-sahpe img {
+    left: 111px;
+    bottom: 258px;
+  }
+  .section-title {
+    font-size: 25px;
+  }
+  .content p {
+    font-size: 11px;
+  }
+  .yellow-bg img {
+    bottom: 81px;
+    left: 31%;
+  }
+  .section-find {
+    font-size: 28px;
+  }
+  .yellow-hero p {
+    font-size: 11px;
+  }
+  .find-ul ul li {
+    font-size: 11px;
+  }
+  .what p {
+    font-size: 9px;
+    color: #53545b;
+  }
+  .why h2 {
+    font-size: 32px;
+  }
+  .why-btn button {
+    font-size: 18px;
+  }
+  .why-imgs .green {
+    right: 21px;
+    width: 85%;
+  }
+  .we p {
+    font-size: 11px;
+  }
+  .we h2 {
+    font-size: 41px;
+  }
+  .yellow-we img {
+    top: 40%;
+    left: 53%;
+  }
+  .users {
+    flex-direction: column;
+    text-align: center;
+  }
+  .fa-users {
+    font-size: 80px;
+  }
+  .enrolled p {
+    font-size: 43px;
+  }
+  .enrolled h5 {
+    font-size: 27px;
+  }
+  .fa-book-open-reader {
+    font-size: 80px;
+  }
+  .fa-user-graduate {
+    font-size: 80px;
+  }
+  .fa-earth-americas {
+    font-size: 80px;
+  }
+  .share p {
+    font-size: 11px;
+  }
+  .share h2 {
+    font-size: 24px;
+  }
+  .yellow-share img {
+    top: 47%;
+    left: 24%;
+  }
+  @keyframes section-animation-7 {
+    15% {
+      width: 32%;
+    }
+    90% {
+      width: 32%;
+    }
+  }
+  .global-content a {
+    font-size: 18px;
+  }
+  .start h3 {
+    font-size: 14px;
+  }
+  .start2 button {
+    font-size: 8px;
+    padding: 7px 6px;
+  }
+  .foter-content p {
+    font-size: 19px;
+  }
+  .company p {
+    font-size: 34px;
+  }
+  .lab input {
+    width: 89%;
+  }
+  .company-content h4 {
+    font-size: 16px;
+  }
+  .copyright p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 375px) {
+  .what-content {
+    width: auto;
+    left: 29%;
+    transform: translateX(-21%);
+  }
+}
+.yellow-hero h4 {
+  font-size: 16px;
+}
+.find-ul ul li {
+  font-size: 10px;
+}
+.find-a a {
+  font-size: 19px;
+}
+.start h3 {
+  font-size: 13px;
+}
+.start2 button {
+  font-size: 7px;
+  padding: 7px 6px;
+}
+hr:not([size]) {
+  height: 1px;
+  width: 93%;
+}
+.yellow-sahpe img {
+  left: 128px;
+  bottom: 258px;
+}
+.why-imgs {
+  padding-top: 15%;
+}
+.find p {
+  font-size: 11px;
+}
+.second-achive p {
+  font-size: 12px;
+}
+.section-what img {
+  bottom: 87px;
+}
+.why h2 {
+  font-size: 31px;
+}
+.why p {
+  font-size: 12px;
+}
+.yellow-why img {
+  left: 44%;
+}
+
+@media (max-width: 360px) {
+  .yellow-hero h4 {
+    font-size: 15px;
+  }
+  .hero-search .hero-input input {
+    font-size: 10px;
+  }
+  .find-a a {
+    font-size: 17px;
+  }
+  .why h2 {
+    font-size: 26px;
+  }
+  .why .yellow-why {
+    font-size: 26px;
+  }
+  .global-content a {
+    font-size: 16px;
+  }
+  .start h3 {
+    font-size: 11px;
+  }
+  .start2 button {
+    font-size: 6px;
+    padding: 5px 4px;
+  }
+  .why-imgs img {
+    width: 100%;
+  }
+  .content p {
+    font-size: 10px;
+  }
+  .second-achive p {
+    font-size: 11px;
+  }
+  .what p {
+    font-size: 8px;
+  }
+  .share p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 353px) {
+  .content p {
+    font-size: 10px;
+  }
+  .yellow-hero p {
+    font-size: 10px;
+  }
+  .find-ul ul li {
+    font-size: 9px;
+  }
+  .what p {
+    font-size: 8px;
+    color: #53545b;
+  }
+  .section-what {
+    font-size: 35px;
+  }
+  .section-what img {
+    bottom: 85px;
+  }
+  .why-imgs img {
+    width: 87%;
+  }
+  .why-imgs .green {
+    height: auto;
+  }
+  .why-imgs .pink {
+    height: auto;
+  }
+  .we p {
+    font-size: 10px;
+  }
+  .share p {
+    font-size: 10px;
+  }
+  .copyright p {
+    font-size: 12px;
+  }
+  .yellow-sahpe img {
+    left: 100px;
+    bottom: 254px;
+  }
+  .foter-content p {
+    font-size: 18px;
+  }
+  .why p {
+    font-size: 11px;
+  }
+  .achive-ul ul li {
+    font-size: 17px;
+  }
+}
+@media (max-width: 320px) {
+  .logo a span {
+    display: none;
+  }
+  .logo img {
+    width: 80%;
+  }
+  .yellow-hero h4 {
+    font-size: 13px;
+  }
+  .yellow-hero p {
+    font-size: 9px;
+  }
+  .hero-search .hero-input input {
+    font-size: 8px;
+  }
+  .hero-input button {
+    top: 75%;
+  }
+  .second-achive p {
+    font-size: 10px;
+  }
+  .find p {
+    font-size: 9px;
+  }
+  .section-find {
+    font-size: 27px;
+  }
+  .what p {
+    font-size: 7px;
+  }
+  .why p {
+    font-size: 10px;
+  }
+  .yellow-why img {
+    top: 28%;
+  }
+  .yellow-sahpe img {
+    left: 106px;
+    bottom: 250px;
+  }
+  .section-title {
+    font-size: 22px;
+  }
+  .content p {
+    font-size: 9px;
+  }
+  .yellow-bg img {
+    bottom: 70px;
+    left: 31%;
+  }
+  .achive {
+    font-size: 33px;
+  }
+  .yellow-bg-big img {
+    left: 4%;
+    bottom: 0px;
+  }
+  .achive-ul ul li {
+    font-size: 15px;
+  }
+  .find-ul ul li {
+    font-size: 8px;
+  }
+  .find-a a {
+    font-size: 14px;
+  }
+  .why-btn p {
+    font-size: 14px;
+  }
+  .we p {
+    font-size: 9px;
+  }
+  .share h2 {
+    font-size: 22px;
+  }
+  .share p {
+    font-size: 9px;
+  }
+  .global-content a {
+    font-size: 13px;
+  }
+  .start h3 {
+    font-size: 7px;
+  }
+  .start2 button {
+    font-size: 3px;
+    padding: 5px 4px;
+  }
+  .foter-content p {
+    font-size: 15px;
+  }
+  .social a {
+    margin: 0 15px;
+    font-size: 40px;
+  }
+  .company p {
+    font-size: 29px;
+  }
+  .about a {
+    font-size: 22px;
+  }
+  .lab input {
+    width: 86%;
+  }
+  .copyright p {
+    font-size: 11px;
+  }
+  hr:not([size]) {
+    height: 1px;
+    width: 92%;
+  }
+  .start-con {
+    display: none;
+  }
+}
